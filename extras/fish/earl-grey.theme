@@ -1,0 +1,94 @@
+# name: "Earl Grey"
+# preferred_background: FCFBF9
+
+# color-palette {
+#   background: #FCFBF9;
+#   foreground: #605A52;
+#   selection:  #DDDBD8;
+#   cursor:     #605A52;
+#
+#   black:      #5A544C;
+#   red:        #8F5652;
+#   green:      #747B4D;
+#   yellow:     #886A44;
+#   blue:       #556995;
+#   magenta:    #83577D;
+#   cyan:       #477A7B;
+#   white:      #DDDBD8;
+#
+#   brblack:    #9E9A95;
+#   brred:      #8F5652;
+#   brgreen:    #747B4D;
+#   bryellow:   #886A44;
+#   brblue:     #556995;
+#   brmagenta:  #AA5087;
+#   brcyan:     #477A7B;
+#   brwhite:    #FCFBF9;
+# }
+
+# Autosuggestions: Comment color (Grey6)
+fish_color_autosuggestion 9E9A95
+fish_color_cancel -r
+
+# Commands: Blue
+fish_color_command 556995
+
+# Comments: Comment color (Grey6)
+fish_color_comment 9E9A95
+
+# CWD: Green
+fish_color_cwd 747B4D
+fish_color_cwd_root 8F5652
+
+# Separators (End): Purple
+fish_color_end 83577D
+
+# Errors: Red
+fish_color_error 8F5652
+
+# Escapes: Teal
+fish_color_escape 477A7B
+
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote 886A44
+
+# Keywords: Purple
+fish_color_keyword 83577D
+
+# Match Background: Berry (UI Highlight)
+fish_color_match --background=AA5087
+
+fish_color_normal 605A52
+
+# Operators: Teal
+fish_color_operator 477A7B
+
+# Options/Flags: Teal
+fish_color_option 477A7B
+
+# Parameters: Blue
+fish_color_param 556995
+
+# Strings: Green
+fish_color_quote 747B4D
+
+# Redirection: Teal
+fish_color_redirection 477A7B --bold
+
+# Search Match: Berry text on Grey background
+fish_color_search_match AA5087 --background=DDDBD8
+
+# Selection: Grey background
+fish_color_selection 605A52 --background=DDDBD8
+
+# Status: Red
+fish_color_status 8F5652
+
+# User: Green
+fish_color_user 747B4D
+
+fish_color_valid_path --underline
+
+fish_pager_color_background
+fish_pager_color_completion
