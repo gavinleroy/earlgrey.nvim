@@ -107,6 +107,17 @@ function M.setup(colors)
 		Todo = { fg = colors.orange, bold = true },
 
 		-- =========================================================================
+		--  LSP
+		-- =========================================================================
+		LspCodeLens = { bg = colors.background_alt },
+		LspCodeLensSeparator = { bg = colors.background_alt },
+		-- Explicitly make inlay hints dimmer than comments
+		LspInlayHint = { fg = colors.grey4, bg = colors.background_alt, italic = true },
+		LspReferenceRead = { bg = colors.background_alt },
+		LspReferenceText = { bg = colors.background_alt },
+		LspReferenceWrite = { bg = colors.background_alt },
+
+		-- =========================================================================
 		--  TREESITTER
 		-- =========================================================================
 		-- Punctuation
